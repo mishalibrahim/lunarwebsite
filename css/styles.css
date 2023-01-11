@@ -1,0 +1,218 @@
+body{
+    margin:0;
+    
+}
+
+.top-nav{
+    
+    padding:0 8%;
+    height: 40px ;
+    background-color:#5e068a ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fi-text{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    
+}
+/* luminar logo */
+
+.fi-img{
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.sec-nav{
+    padding:0 8%;
+    background-color: #fff;
+
+}
+
+/* list elements */
+
+.sec-text{
+    color: #2d3e50;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sec-text:hover{
+    color: #5e068a;
+}
+
+/* carousel */
+.carousel-control-prev { 
+    width:8%;
+}
+
+ .car-size{
+     filter: brightness(50%);
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.carousel-caption{
+
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 50px;
+    left:100px;
+}
+.car-text1 {
+    line-height: 0.8;
+    font-size: 3.5rem;
+    
+}
+.car-text2{
+    width:50%;
+    line-height: 0.9;
+    font-size: 3rem;
+}
+.car-para{
+    padding-top: 40px;
+    width:64%;
+    font-size: 0.8rem;
+    margin-bottom: 60px;
+}
+
+/* button */
+
+.but-main{
+    padding: 20px 40px;
+   
+    border-radius: 50px;
+    
+    margin-left: 10px;
+    color: #fff;
+    background-color: #5e068a;
+    
+    
+}
+.but-main,.but-about:hover{
+    background-color: #6a069c;
+}
+.but-font{
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* modal title */
+
+
+.btn-close{
+    position: relative;
+    float:right;
+}
+.modal-title{
+    padding-left: 100px;
+    padding-bottom: 30px;
+    
+}
+
+
+.modal-body{
+    padding:20px 40px;
+}
+/* Form */
+
+input,textarea{
+    border:0;
+}
+input,textarea:focus{
+    outline: none;
+}
+select{
+    width:100%;
+    border:0;
+}
+.btn-form{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 10px 20px 40px;
+    height: 40px;
+    width: 25%;
+    background-color: #5e068a;
+    color: #fff;
+    border-radius: 30px;
+    
+}
+.btn-form:hover{
+    background-color: #770faa;
+}
+
+/* aboutttttttttt */
+
+
+.container{
+    padding:4% 4% 4% 4%;
+}
+.abt-para{
+   
+    font-size:14px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.abt-img{
+    position: relative;
+    float: right;
+}
+.abt-head{
+    padding-top: 20px;
+    font-size:32px;
+    font-weight:600 ;
+    line-height: 1.8;
+    color:#5e068a;
+}
+.abt-head2{
+    font-size: 18px;
+    color:#5e068a99;
+}
+.but-about{
+    padding: 20px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #5e068a;
+    
+}
+
+/* OUR COURSES */
+
+.container-course{
+    background-color: #f5f5f5;
+}
+.head-course{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #5e068a;
+    letter-spacing: 1.5px;
+}
+.head-first{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+
+}
+.head-sec{
+    color: #9e6ab9;
+}
+
+.cour-img{
+    height: 100%;
+    width:100%;
+}
+
+.cour-hov:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cour-head{
+    color:#5e068a;
+}
